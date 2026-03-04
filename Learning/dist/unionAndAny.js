@@ -6,13 +6,18 @@ let apiRequest = "Pending";
 apiRequest = "Success";
 let airlineSeat = "middle";
 airlineSeat = "window";
-const orders = ['10', '20', '12', '42', '28'];
-let currentOrders;
+const orders = ["10", "20", "12", "42", "28"];
+let currentOrder;
 for (let order in orders) {
-    if (order == '28') {
-        currentOrders = order;
+    if (order === "28") {
+        currentOrder = order;
         break;
     }
 }
-console.log(currentOrders);
+console.log(currentOrder);
+// Any 
+let notSure = 4;
+notSure = "maybe a string instead";
+notSure = false; // okay, definitely a boolean
+console.log(notSure);
 //# sourceMappingURL=unionAndAny.js.map

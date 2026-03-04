@@ -19,3 +19,11 @@ for (let order in orders) {
 }
 
 console.log(currentOrder);
+
+// Any 
+
+let notSure: any = 4;
+notSure = "maybe a string instead";
+notSure = false; // okay, definitely a boolean
+
+console.log(notSure)
